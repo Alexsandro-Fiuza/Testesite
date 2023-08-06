@@ -1,8 +1,8 @@
 function ToggleMode() {
-  const a = document.documentElement
-  a.classList.toggle("light")
-  const b = document.querySelector("#profile img")
-  a.classList.contains("light")
-    ? b.setAttribute("src", "./assets/avatar-lightzero.png")
-    : b.setAttribute("src", "./assets/zertwoavatar.png")
+  const c = document.documentElement
+  c.classList.toggle("light")
+  const a = document.querySelector("#profile img")
+  c.classList.contains("light")
+    ? a.setAttribute("src", "./assets/avatar-lightzero.png")
+    : a.setAttribute("src", "./assets/zertwoavatar.png")
 }
